@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+main {
+  width: 500px;
+  margin-bottom: 8%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.result {
+  width: 50%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 50px;
+  padding: 30px;
+  color: white;
+}
+
+.circle {
+  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%));
+  text-align: center;
+  padding: 20px;
+  width: 120px;
+  border-radius: 100px;
+}
+
+.score {
+  font-size: 5em;
+}
+
+.outof {
+   color: #8b82f7;
+}
+
+.percentile {
+  text-align: center;
+  color: #d3d5ff;
+}
+
+
+.attribution {
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  text-align: center;
+  color: white;
+}
+
+.attribution p {
+  position: relative;
+  top: 30%;
+}
+
+.attribution a {
+  color: white;
+}
