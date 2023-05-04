@@ -165,7 +165,7 @@ main {
   color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 560px) {
   main {
     width: 100vw;
     flex-direction: column;
